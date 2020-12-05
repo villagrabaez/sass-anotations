@@ -1,0 +1,35 @@
+// Con extends podemos compartir los estilos existentes agregando estilos propios.
+
+.sel {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.nuevo {
+  color: blue;
+  @extend .sel;
+}
+
+.otro {
+  padding: 10px;
+  margin: 10px;
+  @extend .nuevo;
+}
+
+// Selector placeholder
+%selector {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.boton {
+  @extend %selector;
+  color: blue;
+}
+
+.boton2 {
+  @extend %selector;
+  color: darkgreen;
+}

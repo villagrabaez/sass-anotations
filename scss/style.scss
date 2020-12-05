@@ -1,0 +1,32 @@
+@import 'extends';
+@import 'control';
+@import 'variables';
+@import 'layout';
+@import 'botones';
+@import 'mixins';
+
+body {
+  background: {
+    color: $background;
+    image: url('#{$image}'); // interpolacion de variables en Sass
+  }
+
+  h1 {
+    color: $title;
+  }
+
+  p {
+    color: $text;
+    font-size: $text-parrafo;
+  }
+  .box {
+    @include box(); // mixin box
+  }
+  .box-gray {
+    @include box(5px, black, 30px); // mixin box
+  }
+}
+
+div {
+  content: $cadena3;
+}

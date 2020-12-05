@@ -1,0 +1,247 @@
+.sel, .nuevo, .otro {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.nuevo, .otro {
+  color: blue;
+}
+
+.otro {
+  padding: 10px;
+  margin: 10px;
+}
+
+.boton, .boton2 {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.boton {
+  color: blue;
+}
+
+.boton2 {
+  color: darkgreen;
+}
+
+.if {
+  width: 20px;
+}
+
+.btn-facebook, .btn-twitter {
+  display: inline-block;
+  padding: 10px 20px 10px 36px;
+  color: white;
+  font-size: 0.8em;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-position: 8px 50%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.btn-facebook:hover, .btn-twitter:hover {
+  opacity: .9;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  background-image: url("../img/icon-facebook.png");
+}
+
+.btn-twitter {
+  background-color: #00aced;
+  background-image: url("../img/icon-twitter.png");
+}
+
+.col1 {
+  margin: 0 10px;
+  width: 60px;
+}
+
+.col2 {
+  margin: 0 10px;
+  width: 120px;
+}
+
+.col3 {
+  margin: 0 10px;
+  width: 180px;
+}
+
+.col4 {
+  margin: 0 10px;
+  width: 240px;
+}
+
+.col5 {
+  margin: 0 10px;
+  width: 300px;
+}
+
+.col6 {
+  margin: 0 10px;
+  width: 360px;
+}
+
+.col7 {
+  margin: 0 10px;
+  width: 420px;
+}
+
+.col8 {
+  margin: 0 10px;
+  width: 480px;
+}
+
+.col9 {
+  margin: 0 10px;
+  width: 540px;
+}
+
+.col10 {
+  margin: 0 10px;
+  width: 600px;
+}
+
+.col11 {
+  margin: 0 10px;
+  width: 660px;
+}
+
+.col12 {
+  margin: 0 10px;
+  width: 720px;
+}
+
+.pre1 {
+  margin-left: 80px;
+}
+
+.pre2 {
+  margin-left: 160px;
+}
+
+.pre3 {
+  margin-left: 240px;
+}
+
+.pre4 {
+  margin-left: 320px;
+}
+
+.pre5 {
+  margin-left: 400px;
+}
+
+.pre6 {
+  margin-left: 480px;
+}
+
+.pre7 {
+  margin-left: 560px;
+}
+
+.pre8 {
+  margin-left: 640px;
+}
+
+.pre9 {
+  margin-left: 720px;
+}
+
+.pre10 {
+  margin-left: 800px;
+}
+
+.pre11 {
+  margin-left: 880px;
+}
+
+p {
+  background-image: url("icon.png");
+}
+
+.icon-facebook {
+  background-image: url("facebook.png");
+}
+
+.icon-twitter {
+  background-image: url("twitter.png");
+}
+
+.icon-linkedin {
+  background-image: url("linkedin.png");
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9bc1bc;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  border-radius: 4px;
+}
+
+.btn-cta {
+  background-color: #ed6a5a;
+  position: relative;
+  padding-left: 30px;
+}
+
+.btn-cta::before {
+  content: "";
+  display: block;
+  top: 18px;
+  left: 15px;
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent;
+  border-left-color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("icon.png");
+}
+
+body h1 {
+  color: #888;
+}
+
+body p {
+  color: #666666;
+  font-size: 14px;
+}
+
+body .box {
+  padding: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+body .box-gray {
+  padding: 15px;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+div {
+  content: "Hola mundo!";
+}
+
+/*# sourceMappingURL=style.css.map */

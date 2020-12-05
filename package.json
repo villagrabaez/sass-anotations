@@ -1,0 +1,15 @@
+{
+  "name": "stydesass",
+  "version": "1.0.0",
+  "description": "Sass in Styde.net",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --source-map true -w --output-style expanded scss/ -o css/ --recursive",
+    "sass-production": "node-sass --output-style compressed scss/ -o css/ --recursive"
+  },
+  "author": "Bernardino Villagra <bernardinovillagra@hotmail.com> (https://twitter.com/villagrabaez)",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,40 @@
+$text: #666666;
+$background: #fff;
+$text-parrafo: 14px;
+$title: #888;
+$image: 'icon.png';
+
+$cadena: 'valor';
+
+@if ($cadena == 'valor') {} // true
+@if ($cadena) {} // true
+
+$cadena1: 'Hola';
+$cadena2: ' mundo!';
+$cadena3: $cadena1 + $cadena2; // 'Hola mundo!'
+
+// Interpolacion de variables
+
+$imagen: 'icon.png';
+
+p {
+  background-image: url('#{$imagen}');
+}
+
+// Listas en Sass
+
+$lista: facebook, twitter, linkedin;
+
+@each $item in $lista {
+  .icon-#{$item} {
+    background-image: url('#{$item}.png');
+  }
+}
+
+// Mapas en Sass
+
+$mapa: (
+  clave: valor
+)
+
+// map-get($mapa, clave);

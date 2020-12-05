@@ -1,0 +1,63 @@
+// if
+
+@if 1 == 1 {
+  .if {
+    width: 20px;
+  }
+} @else if 2 == 2 {
+  .if {
+    width: 30px;
+  }
+} @else {
+  .if {
+    width: 10px;
+  }
+}
+
+$redes: (facebook, #3b5998), (twitter, #00aced);
+
+%btn {
+  display: inline-block;
+  padding: 10px 20px 10px 36px;
+  color: white;
+  font-size: 0.8em;
+  border-radius: 4px;
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+  background: {
+    position: 8px 50%;
+    repeat: no-repeat;
+    size: 20px 20px;
+  }
+  &:hover {
+    opacity: .9;
+  }
+}
+
+@each $red, $color in $redes {
+  .btn-#{$red} {
+    @extend %btn;
+    background: {
+      color: $color;
+      image: url('../img/icon-#{$red}.png');
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .col#{$i} {
+    margin: 0 10px;
+    width: (60px * $i);
+  }
+}
+
+$e: 1;
+
+@while $e < 12 {
+  .pre#{$e} {
+    margin-left: (60 * $e) + (20px * $e);
+  }
+  $e: $e + 1;
+}
